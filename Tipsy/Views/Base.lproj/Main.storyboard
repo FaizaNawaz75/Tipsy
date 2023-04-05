@@ -108,7 +108,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="cG2-ii-6Df">
                                                 <rect key="frame" x="39" y="185.00000000000003" width="275" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYy-L3-KSn">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYy-L3-KSn">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="0cE-Gq-OLO"/>
@@ -118,7 +118,7 @@
                                                         <color key="textColor" red="0.30980393290000002" green="0.6784313917" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="DYh-W6-AtB">
+                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="DYh-W6-AtB">
                                                         <rect key="frame" x="175" y="0.0" width="100" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="aMR-8x-IPe"/>

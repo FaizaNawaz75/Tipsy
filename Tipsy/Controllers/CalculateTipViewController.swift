@@ -64,7 +64,6 @@ class CalculateTipViewController: UIViewController {
                               members: totalMembers,
                               bill: String(format: "%.2f", billPerPerson))
         
-        self.performSegue(withIdentifier: "showBill", sender: self)
     }
     
     
